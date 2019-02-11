@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
-require File.join(File.dirname(__FILE__), 'lib/google/api_client', 'version')
+require File.join(File.dirname(__FILE__), 'lib/legacy/google/api_client', 'version')
 
 Gem::Specification.new do |s|
   s.name = "google-api-client"
-  s.version = Google::APIClient::VERSION::STRING
+  s.version = Legacy::Google::APIClient::VERSION::STRING
 
   s.required_rubygems_version = ">= 1.3.5"
   s.require_paths = ["lib"]
